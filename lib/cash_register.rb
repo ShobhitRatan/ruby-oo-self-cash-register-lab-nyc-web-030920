@@ -1,4 +1,4 @@
-class Cash_Register 
+class CashRegister 
     attr_reader :discount, :items 
     attr_accessor :total 
 
@@ -8,6 +8,6 @@ class Cash_Register
         @items = []
         @prev = 0
     end 
-    
+
 
 end 
